@@ -16,34 +16,90 @@ body {
   margin: 0;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
 }
 
 img {
-  width: 100px;
+  max-width: 100px;
 }
 
 #hero {
   background-image: url("images/torshov.jpg");
   background-size: cover;
   color: #ffffff;
-  padding: 1rem 0 20rem;
+  padding: 1rem 0 12rem;
   display: block;
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .msg-visit {
   max-width: fit-content;
-  margin: 12rem auto 0.5rem;
+  margin: 12rem auto 1rem;
   padding: 0.4rem 1.2rem;
   border-radius: 10px;
   background: #1d3557;
+  font-size: 3.2rem;
 }
 
 .msg-enjoy {
   max-width: 45ch;
-  margin: 0.5rem auto;
-  padding: 0.6rem 0.2rem;
+  margin: 0 auto;
+  padding: 0.6rem 2.8rem;
   border-radius: 10px;
   background: #457b9d;
+  font-size: 1.9rem;
+}
+
+#activities {
+  background-color: #f1faee;
+  padding: 4rem 0;
+  color: #1d3557;
+}
+
+#activities img {
+  border-radius: 50%;
+}
+
+.msg-activities {
+  margin: 0rem 5.5rem 14rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.activities-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.activity {
+  max-width: 22ch;
+}
+
+#guide {
+  display: block;
+  background-color: #ffffff;
+  padding: 5rem 0;
+  color: #1d3557;
+}
+
+.card {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  padding: 2.2rem 1.3rem;
+  border-radius: 10px;
+  background-color: #a8dadc;
+  border-bottom: 5px solid #1d3557;
+}
+
+.card img {
+  max-width: 18rem;
+  border-radius: 10px;
+}
+
+.card p {
+  max-width: 25ch;
+  font-style: italic;
 }
